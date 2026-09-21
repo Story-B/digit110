@@ -1,0 +1,16 @@
+start = root 
+root = element root {head, meta, cont}
+head = element head {Id, text}
+Id = attribute Id {text}
+meta = element meta {mixed {time*}}
+time = element time {Id, text}
+cont = element cont {ogrec*, rec, closing}
+ogrec = element ogrec {mixed{(ing | inst)*}}
+ing = element ing {Id?, text}
+inst = element inst {mixed {ing*}}
+rec = element rec {mixed {inglist, inst,ing}}
+inglist = element list {halved, (line|ing)*}
+halved = element halved {empty}
+line = element line {mixed {(ing | inst)*}}
+closing = element closing { subhead, line+}
+subhead = element subhead {text}
