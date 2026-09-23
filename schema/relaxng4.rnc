@@ -1,0 +1,14 @@
+start = root
+root = element root {meta, (instrumental|verse|chorus)+}
+meta = element meta {song,band,release}
+song = element song {text}
+band =element band {xmlid, text}
+xmlid = attribute xml:id {xsd:ID} 
+release = element release {date, text}
+date = attribute date {xsd:gYear}
+instrumental = element instrumental {empty}
+verse = element verse {n,mixed {gtar+}}
+n = attribute n {xsd:integer}
+gtar = element gtar {chord, text}
+chord = attribute chord {"amaj"|"emaj"|"c#maj"|"bmaj"}
+chorus = element chorus {mixed{gtar+}}

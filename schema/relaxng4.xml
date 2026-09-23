@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="relaxng4.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <meta>
+        <song>Hazel </song>
+        <band xml:id="FarApart">Far Apart</band>
+        <release date ="1997">1997</release>
+        
+    </meta>
+<instrumental/>    
+     
+<verse n="1"><gtar chord="emaj">After a while, she walks into the room</gtar>
+<gtar chord="c#maj"/>.
+    <gtar chord ="emaj">The pockets of her jacket filled with glue</gtar> <gtar chord="c#maj ">into which she's stuffed her</gtar> <gtar chord = "bmaj">fingers, I'm stuck,</gtar> <gtar chord="amaj">we all get sometimes</gtar>
+    <gtar chord="emaj">And then she smiles but I just can't read her mind</gtar> <gtar chord="c#maj"/>
+<gtar chord="emaj">Sometimes, her smile doesn't reach</gtar> <gtar chord="c#maj">her eyes 
+And I'm trying to say sorry</gtar>, <gtar chord="amaj">don't lie, we all lie sometimes</gtar> <gtar chord="emaj">but not now</gtar></verse>
+
+<chorus>
+<gtar chord="amaj">I change my outfit everyday</gtar>, <gtar chord="bmaj">I say those things that I think you would like to hear</gtar> <gtar chord="emaj">me say</gtar>
+<gtar chord="amaj">I do things I normally wouldn't do</gtar>, <gtar chord="bmaj">just to make you let me </gtar><gtar chord="c#maj">spend a while with you</gtar>, <gtar chord="amaj" >silly, silly, silly, silly me</gtar>
+</chorus>
+<instrumental/>
+<verse n="2"><gtar chord="emaj">She lights a fag and sits down on the floor</gtar>
+    <gtar chord="c#maj"/>
+<gtar chord="emaj">Her face buried in that mass of </gtar><gtar chord="c#maj">hair
+God, I thought I knew her</gtar> <gtar chord="amaj">color, I don't, I don't know nothing</gtar>
+<gtar chord="emaj">So I look up, but it looks like she has</gtar> <gtar chord="c#maj">left</gtar>
+<gtar chord="emaj">Worried that she's gonna kill </gtar><gtar chord="c#maj">herself but she just went to the</gtar><gtar chord="bmaj"> bathroom
+And</gtar> <gtar chord="c#maj">I laugh, we all laugh sometimes, just not now</gtar></verse>
+
+
+<chorus><gtar chord="amaj">I change my outfit everyday,</gtar> <gtar chord="bmaj">I say those things that I think you would like to hear</gtar><gtar chord="amaj"> me say
+        I do things I normally wouldn't do</gtar>, <gtar chord="c#maj">just to make you let me spend a while with you,</gtar><gtar chord="emaj" > silly, silly, silly, silly me</gtar>
+</chorus>
+
+<instrumental/>
+
+
+    <chorus><gtar chord="amaj">I change my outfit everyday,</gtar> <gtar chord="bmaj">I say those things that I think you would like to hear</gtar><gtar chord="amaj"> me say
+            I do things I normally wouldn't do</gtar>, <gtar chord="c#maj">just to make you let me spend a while with you,</gtar>
+        <gtar chord="amaj">I change my outfit everyday,</gtar> <gtar chord="bmaj">I say those things that I think you would like to hear</gtar><gtar chord="amaj"> me say
+            I do things I normally wouldn't do</gtar>, <gtar chord="c#maj">just to make you let me spend a while with you,</gtar><gtar chord="emaj" > silly, silly, silly, silly me</gtar>
+    </chorus>
+
+
+
+</root>
